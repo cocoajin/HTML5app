@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "SVWebViewController.h"
+#import "WebPageViewController.h"
 
 #define kBaseURL @"http://h5.cocoajin.org"
 #define kHtml @".html"
@@ -41,16 +42,28 @@
     self.clearsSelectionOnViewWillAppear = NO;
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
+    
     [listArray addObject:@"JQMobile Hello World!"];
+    
     
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
     [webArray addObject:@"index"];
     
+    
+    
+    //Test
+    UIBarButtonItem *next = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemPause target:self action:@selector(webPageTest)];
+    self.navigationItem.rightBarButtonItem = next;
 
 }
 
+- (void)webPageTest
+{
+    WebPageViewController *web = [[WebPageViewController alloc]init];
+    [self.navigationController pushViewController:web animated:YES];
+}
 
 
 #pragma mark - Table view data source

@@ -21,6 +21,7 @@
 		CC04DFB11803F4FF0044AA66 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC04DFAF1803F4FF0044AA66 /* SVWebViewController.m */; };
 		CC04DFB41803F5470044AA66 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC04DFB31803F5470044AA66 /* SVModalWebViewController.m */; };
 		CC04DFB61803F5C10044AA66 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC04DFB51803F5C10044AA66 /* MessageUI.framework */; };
+		CC04DFB9180403150044AA66 /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC04DFB8180403150044AA66 /* WebPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		CC04DFB21803F5470044AA66 /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
 		CC04DFB31803F5470044AA66 /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
 		CC04DFB51803F5C10044AA66 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CC04DFB7180403150044AA66 /* WebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPageViewController.h; sourceTree = "<group>"; };
+		CC04DFB8180403150044AA66 /* WebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				CC04DFAF1803F4FF0044AA66 /* SVWebViewController.m */,
 				CC04DFB21803F5470044AA66 /* SVModalWebViewController.h */,
 				CC04DFB31803F5470044AA66 /* SVModalWebViewController.m */,
+				CC04DFB7180403150044AA66 /* WebPageViewController.h */,
+				CC04DFB8180403150044AA66 /* WebPageViewController.m */,
 			);
 			name = html5Page;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				CC04DFA81803F2B30044AA66 /* RootViewController.m in Sources */,
 				CC04DFB11803F4FF0044AA66 /* SVWebViewController.m in Sources */,
 				CC04DFB41803F5470044AA66 /* SVModalWebViewController.m in Sources */,
+				CC04DFB9180403150044AA66 /* WebPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +285,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTML5app/HTML5app-Prefix.pch";
 				INFOPLIST_FILE = "HTML5app/HTML5app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -291,7 +297,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTML5app/HTML5app-Prefix.pch";
 				INFOPLIST_FILE = "HTML5app/HTML5app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -316,6 +322,7 @@
 				CC04DFA21803F22B0044AA66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
