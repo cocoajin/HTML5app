@@ -32,6 +32,9 @@
 {
     [super viewDidLoad];
     //self.navigationController.navigationBar.hidden = YES;
+    
+    self.title = @"flat-ui-theme";
+    
     theWebView =[[UIWebView alloc]initWithFrame:self.view.bounds];
     theWebView.scalesPageToFit = YES;
     theWebView.delegate = self;

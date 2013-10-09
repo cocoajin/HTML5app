@@ -43,12 +43,16 @@
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
     
+    [listArray addObject:@"一个页面多Page结构"];
+    [listArray addObject:@"完整的html5页面框架"];
     [listArray addObject:@"JQMobile Hello World!"];
     
     
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"mutalPage"];
+    [webArray addObject:@"hello"];
     [webArray addObject:@"index"];
     
     
