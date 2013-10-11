@@ -43,6 +43,7 @@
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
     
+    [listArray addObject:@"JQMobile button 按钮"];
     [listArray addObject:@"弹出对话框"];
     [listArray addObject:@"一个页面多Page结构"];
     [listArray addObject:@"完整的html5页面框架"];
@@ -52,6 +53,7 @@
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"button"];
     [webArray addObject:@"diag"];
     [webArray addObject:@"mutalPage"];
     [webArray addObject:@"hello"];

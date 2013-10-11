@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>button demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+ 
+ <!-- button page -->
+<div data-role="page" id="buttonPage">
+  <div data-role="header">
+    <h1>button demo</h1>
+  </div>
+  <div data-role="content">
+  
+    <a href="#dialogPage" data-rel="dialog" data-role="button" data-theme="a">link-button</a>
+    <a href="#dialogPage" data-rel="dialog" data-role="button" data-theme="b" class="ui-disabled">disabled-button</a>
+	<a href="#dialogPage" data-rel="dialog" data-role="button" data-theme="e" data-mini="true">mini-button</a>
+	<a href="#dialogPage"> <button>Button element</button>  </a>  
+	<a href="#dialogPage"> <input type="button" value="input Button" /></a>
+	<a href="#dialogPage"><input type="submit" value="Submit Button" /> </a>
+	<a href="#dialogPage"><input type="reset" value="Reset Button" /> </a>
+	<a href="#dialogPage" data-role="button" data-icon="delete" data-theme="b">Delete</a>
+	
+	<a href="#dialogPage" data-role="button" data-icon="delete" data-iconpos="top">Delete</a>
+	<a href="#dialogPage" data-role="button" data-icon="delete" data-theme="a" data-inline="true">cancel</a>
+	<a href="#dialogPage" data-role="button" data-icon="create" data-theme="b" data-inline="true">save</a>
+	<a href="#dialogPage" data-role="button" data-icon="refresh" data-theme="e" data-inline="true" data-mini="true">refresh</a>
+	<a href="#dialogPage" data-role="button" data-icon="star" data-theme="a" data-inline="true" data-iconpos="notext">star</a>
+
+	
+	<div data-role="controlgroup">
+	  <a href="#dialogPage" data-role="button">Yes</a>
+	  <a href="#dialogPage" data-role="button">No</a>
+	  <a href="#dialogPage" data-role="button">Maybe</a>
+	</div>
+
+	<div data-role="controlgroup" data-type="horizontal">
+	  <a href="#dialogPage" data-role="button" data-theme="b">Yes</a>
+	  <a href="#dialogPage" data-role="button"	data-theme="b">No</a>
+	  <a href="#dialogPage" data-role="button"	data-theme="b">Maybe</a>
+	</div>
+
+
+	
+	
+  </div>
+  
+  <div data-role="footer">
+    <h2>footer</h2>
+  </div>
+</div>
+  
+  
+  
+   <!-- button page -->
+  
+  <div data-role="page" id="dialogPage" data-close-btn="none">
+  <div data-role="header" >
+    <h2>Dialog</h2>
+  </div>
+  <div data-role="content">
+    <h2>I am a dialog</h2>
+    <a href="#buttonPage" data-role="button"  data-theme="b">close</a>
+
+  </div>
+</div>
+  
+</body>
+</html>
