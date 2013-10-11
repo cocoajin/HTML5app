@@ -43,6 +43,7 @@
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
     
+    [listArray addObject:@"Checkboxradio Widget Exampl"];
     [listArray addObject:@"JQMobile button 按钮"];
     [listArray addObject:@"弹出对话框"];
     [listArray addObject:@"一个页面多Page结构"];
@@ -53,6 +54,7 @@
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"checkBox"];
     [webArray addObject:@"button"];
     [webArray addObject:@"diag"];
     [webArray addObject:@"mutalPage"];
