@@ -43,6 +43,7 @@
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
     
+    [listArray addObject:@"fixed tool bar 固定toolbar"];
     [listArray addObject:@"collapsible set widget"];
     [listArray addObject:@"collapsible Widget"];
     [listArray addObject:@"Checkboxradio Widget Exampl"];
@@ -56,6 +57,7 @@
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"fixedToolbar"];
     [webArray addObject:@"collapsibleSet"];
     [webArray addObject:@"collapsible"];
     [webArray addObject:@"checkBox"];
