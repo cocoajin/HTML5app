@@ -43,6 +43,7 @@
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
     
+    [listArray addObject:@"collapsible Widget"];
     [listArray addObject:@"Checkboxradio Widget Exampl"];
     [listArray addObject:@"JQMobile button 按钮"];
     [listArray addObject:@"弹出对话框"];
@@ -54,6 +55,7 @@
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"collapsible"];
     [webArray addObject:@"checkBox"];
     [webArray addObject:@"button"];
     [webArray addObject:@"diag"];
