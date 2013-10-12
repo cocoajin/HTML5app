@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body> 
+
+<!-- page one -->
+<div data-role="page">
+
+	<!-- header -->
+	<div data-role="header" data-theme="b">
+		<h1>Collapsible set</h1>
+	</div>
+	
+	
+	<!-- content -->
+	<div data-role="content">	
+	
+	
+	
+		<div data-role="collapsible-set">
+	 
+			<div data-role="collapsible" data-collapsed="false">
+		    <h3>Section 1</h3>
+		    <p>I'm the collapsible set content for section 1.</p>
+			</div>
+		 
+			<div data-role="collapsible">
+		    <h3>Section 2</h3>
+		    <p>I'm the collapsible set content for section 2.</p>
+			</div>
+	 
+		</div>
+		
+	
+	
+		<div data-role="collapsible-set" data-theme="a">
+			<div data-role="collapsible">
+				<h3>Section 1</h3>
+				<p>I'm the collapsible content in a set so this feels like an accordion. I'm open by default because I have the <code>data-collapsed="false"</code> attribute.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Section 2</h3>
+				<p>I'm the collapsible content in a set so this feels like an accordion. I'm hidden by default because I have the "collapsed" state; you need to expand the header to see me.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Section 3</h3>
+				<p>I'm the collapsible content in a set so this feels like an accordion. I'm hidden by default because I have the "collapsed" state; you need to expand the header to see me.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Section 4</h3>
+				<p>I'm the collapsible content in a set so this feels like an accordion. I'm hidden by default because I have the "collapsed" state; you need to expand the header to see me.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Section 5</h3>
+				<p>I'm the collapsible content in a set so this feels like an accordion. I'm hidden by default because I have the "collapsed" state; you need to expand the header to see me.</p>
+			</div>
+		</div>
+	
+	
+	
+		<div data-role="collapsible-set" data-theme="b">
+	 
+			<div data-role="collapsible" data-inset="false">
+		    <h3>Non-inset collapsible sets</h3>
+		    <p>data-inset="false"</p>
+			</div>
+		 
+			<div data-role="collapsible" data-inset="false">
+		    <h3>Non-inset collapsible sets</h3>
+		    <p>data-inset="false"</p>
+			</div>
+	 
+		</div>
+
+	
+	
+		<div data-role="collapsible-set" data-theme="c">
+	 
+			<div data-role="collapsible" data-mini="true">
+		    <h3>Mini collapsible sets</h3>
+		    <p>data-mini="true"</p>
+			</div>
+		 
+			<div data-role="collapsible" data-mini="true">
+		    <h3>Mini collapsible sets</h3>
+		    <p>data-mini="true"</p>
+			</div>
+	 
+		</div>
+	
+	
+		<div data-role="collapsible-set" data-theme="d">
+	 
+			<div data-role="collapsible" data-collapsed-icon="arrow-r"  data-expanded-icon="arrow-d">
+		    <h3>Custom icons</h3>
+		    <p>data-collapsed-icon="arrow-r"  data-expanded-icon="arrow-d"</p>
+			</div>
+		 
+			<div data-role="collapsible" data-collapsed-icon="arrow-r"  data-expanded-icon="arrow-d">
+		    <h3>Custom icons</h3>
+		    <p>data-collapsed-icon="arrow-r"  data-expanded-icon="arrow-d"</p>
+			</div>
+	 
+		</div>
+	
+	
+	
+	  <div data-role="collapsible-set" data-theme="c" data-iconpos="right">
+			<div data-role="collapsible">
+				<h3>Icon positioning 1</h3>
+				<p>Inherits icon positioning from <code>data-iconpos="right"</code> attribute on parent.</p>
+			</div>
+			<div data-role="collapsible" data-iconpos="left">
+				<h3>Icon positioning 2</h3>
+				<p>data-iconpos="left"</p>
+			</div>
+			<div data-role="collapsible" data-iconpos="bottom">
+				<h3>Icon positioning 3</h3>
+				<p>data-iconpos="bottom"</p>
+			</div>
+			<div data-role="collapsible" data-iconpos="top">
+				<h3>Icon positioning 4</h3>
+				<p>data-iconpos="top"</p>
+			</div>
+		</div>
+	
+	
+	   <div data-role="collapsible-set" data-content-theme="c">
+			<div data-role="collapsible" data-theme="b" data-content-theme="b">
+				<h3>Section header, swatch B</h3>
+				<p>Collapsible content, swatch "b"</p>
+			</div>
+			<div data-role="collapsible" data-theme="a" data-content-theme="a">
+				<h3>Section header, swatch A</h3>
+				<p>Collapsible content, swatch "a"</p>
+			</div>
+			<div data-role="collapsible" data-theme="e" data-content-theme="d">
+				<h3>Section header, swatch E</h3>
+				<p>Collapsible content, swatch "d"</p>
+			</div>
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	
+	
+	<!-- footer -->
+	<div data-role="footer">
+		
+		<h4>footer</h4>
+	</div>
+	
+
+</div>
+
+</body>
+</html>
