@@ -42,7 +42,7 @@
     self.clearsSelectionOnViewWillAppear = NO;
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
-    
+    [listArray addObject:@"rangeslider widget"];
     [listArray addObject:@"popup widget"];
     [listArray addObject:@"panel widget"];
     [listArray addObject:@"navbar widget"];
@@ -62,6 +62,7 @@
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"rangeslider"];
     [webArray addObject:@"popup"];
     [webArray addObject:@"panel"];
     [webArray addObject:@"navbar"];
