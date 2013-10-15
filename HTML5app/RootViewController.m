@@ -43,6 +43,7 @@
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
     
+    [listArray addObject:@"footer detail setUp"];
     [listArray addObject:@"fixed tool bar 固定toolbar"];
     [listArray addObject:@"collapsible set widget"];
     [listArray addObject:@"collapsible Widget"];
@@ -57,6 +58,7 @@
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"footer"];
     [webArray addObject:@"fixedToolbar"];
     [webArray addObject:@"collapsibleSet"];
     [webArray addObject:@"collapsible"];
