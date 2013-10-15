@@ -43,6 +43,7 @@
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
     
+    [listArray addObject:@"panel widget"];
     [listArray addObject:@"navbar widget"];
     [listArray addObject:@"loader widget"];
     [listArray addObject:@"footer detail setUp"];
@@ -60,6 +61,7 @@
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"panel"];
     [webArray addObject:@"navbar"];
     [webArray addObject:@"loader"];
     [webArray addObject:@"footer"];
