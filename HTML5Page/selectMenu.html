@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body> 
+
+<!-- page one -->
+<div data-role="page">
+
+	<!-- header -->
+	<div data-role="header" data-theme="b">
+		<h1>selectMenu</h1>
+	</div>
+	
+	
+	<!-- content -->
+	<div data-role="content">
+	
+	
+		<label for="select-choice-0" class="select">Shipping method:</label>
+		<select name="select-choice-0" id="select-choice-0">
+		  <option value="standard">Standard: 7 day</option>
+		  <option value="rush">Rush: 3 days</option>
+		  <option value="express">Express: next day</option>
+		  <option value="overnight">Overnight</option>
+		</select>
+		
+		<!--   Mini version  data-mini="true" -->
+	
+	
+		<!--   field  containers   data-role="fieldcontain" -->
+		
+		<div data-role="fieldcontain">
+		  <label for="select-choice-1" class="select">Shipping method:</label>
+		  <select name="select-choice-1" id="select-choice-1">
+		    <option value="standard">Standard: 7 day</option>
+		    <option value="rush">Rush: 3 days</option>
+		    <option value="express">Express: next day</option>
+		    <option value="overnight">Overnight</option>
+		  </select>
+		</div>
+	
+
+		<!-- Optgroups 组 section划分 -->
+			<div data-role="fieldcontain">
+		  <label for="select-choice-nc" class="select">Preferred delivery:</label>
+		  <select name="select-choice-8" id="select-choice-nc">
+		    	<optgroup label="FedEx">
+		      <option value="firstOvernight">First Overnight</option>
+		      <option value="expressSaver">Express Saver</option>
+		      <option value="ground">Ground</option>
+		    </optgroup>
+		    <optgroup label="UPS">
+		      <option value="firstOvernight">First Overnight</option>
+		      <option value="expressSaver">Express Saver</option>
+		      <option value="ground">Ground</option>
+		    </optgroup>
+		    <optgroup label="US Mail">
+		      <option value="standard">Standard: 7 day</option>
+		      <option value="rush">Rush: 3 days</option>
+		      <option value="express">Express: next day (disabled)</option>
+		      <option value="overnight">Overnight</option>
+		    </optgroup>
+		  </select>
+		</div>
+	
+	
+		<!-- vertically 垂直的group -->
+		<!-- 水平方向的 <fieldset data-role="controlgroup" data-type="horizontal"> -->
+		<div data-role="fieldcontain">
+			<fieldset data-role="controlgroup">
+				<legend>Date of Birth:</legend>
+	
+    			<label for="select-choice-month">Month</label>
+				<select name="select-choice-month" id="select-choice-month">
+					<option>Month</option>
+					<option value="jan">January</option>
+					<option value="dec">December</option>
+					<option value="feb">February</option>
+					<option value="mar">March</option>
+					<option value="apr">April</option>
+					<option value="may">May</option>
+					<option value="jun">June</option>
+					<option value="jul">July</option>
+					<option value="aug">August</option>
+					<option value="sep">September</option>
+					<option value="oct">October</option>
+					<option value="nov">November</option>
+					<option value="dec">December</option>
+				</select>
+
+				<label for="select-choice-day">Day</label>
+				<select name="select-choice-day" id="select-choice-day">
+					<option>Day</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+				</select>
+
+				<label for="select-choice-year">Year</label>
+				<select name="select-choice-year" id="select-choice-year">
+					<option>Year</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2007">2007</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+				</select>
+			</fieldset>
+
+		</div>
+		
+		
+		<!-- 主题设置  -->
+		<div data-role="fieldcontain">
+			<label for="select-choice-11" class="select">Actions</label>
+			<select name="select-choice-11" id="select-choice-11" data-theme="e" data-icon="gear" data-inline="true">
+				<option value="view">User details</option>
+				<option value="edit">Edit user</option>
+				<option value="deactivate">De-activate</option>
+				<option value="delete">Delete user</option>
+			</select>
+		</div>
+		
+		
+		<!-- Custom select menus -->
+		<!-- http://api.jquerymobile.com/resources/select/example10.html#&ui-state=dialog -->
+		
+		<div data-role="fieldcontain">
+			<label for="select-choice-custom" class="select">Shipping method:</label>
+			<select name="select-choice-1" id="select-choice-custom" data-native-menu="false">
+				<option value="standard">Standard: 7 day</option>
+				<option value="rush">Rush: 3 days</option>
+				<option value="express">Express: next day</option>
+				<option value="overnight">Overnight</option>
+			</select>
+		</div>
+		
+		
+		<!-- Multiple selects -->
+		
+		<div data-role="fieldcontain">
+			<label for="select-choice-9" class="select">Shipping method(s):</label>
+			<select name="select-choice-9" id="select-choice-9" multiple="multiple" data-native-menu="false">
+				<option>Choose options</option>
+				<option value="standard">Standard: 7 day</option>
+				<option value="rush">Rush: 3 days</option>
+				<option value="express">Express: next day</option>
+				<option value="overnight">Overnight</option>
+			</select>
+		</div>
+		
+		
+		
+		<!-- Multiple selects  and 分组 -->
+		
+		<div data-role="fieldcontain">
+		<label for="select-choice-8" class="select">Shipping method:</label>
+		<select name="select-choice-8" id="select-choice-8" data-native-menu="false">
+			<option>Choose shipping method</option>
+			<optgroup label="USPS">
+				<option value="standard" selected>Standard: 7 day</option>
+				<option value="rush">Rush: 3 days</option>
+				<option value="express">Express: next day</option>
+				<option value="overnight">Overnight</option>
+			</optgroup>
+			<optgroup label="FedEx">
+				<option value="firstOvernight">First Overnight</option>
+				<option value="expressSaver">Express Saver</option>
+				<option value="ground">Ground</option>
+			</optgroup>
+		</select>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	</div>
+	
+	
+	<!-- footer -->
+	<div data-role="footer">
+		
+		<h4>footer</h4>
+	</div>
+	
+
+</div>
+
+</body>
+</html>
