@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body> 
+
+<!-- page one -->
+<div data-role="page">
+
+	<!-- header -->
+	<div data-role="header" data-theme="b">
+		<h1>form input</h1>
+	</div>
+	
+	
+	<!-- content -->
+	<div data-role="content">	
+	
+		<!-- mini data-mini="true", clear data-clear-btn="true" -->
+		<div data-role="fieldcontain">
+		  <label for="name">Text Input:</label>
+		  <input type="text" name="name" id="name" value=""  data-clear-btn="true" />
+		</div>	
+	
+	<!-- textArea -->
+	<div data-role="fieldcontain">
+		<label for="textarea">Textarea:</label>
+		  <textarea name="textarea" id="textarea"></textarea>
+	</div>
+	
+	<!-- search  mini data-mini="true" -->
+	<div data-role="fieldcontain">
+	  <label for="search-2">Search Input:</label>
+	  <input type="search" name="search-2" id="search-2" value="" data-theme="a"  />
+	</div>
+	
+	<hr>
+	<!-- more input type -->
+	
+	<div data-role="fieldcontain">
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="number">Number:</label>
+			<input type="number" name="number" id="number" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="number-pattern">Number + pattern:</label>
+			<input type="number" name="number" pattern="[0-9]*" id="number-pattern" value="" placeholder="Pattern attribute [0-9]* for a numeric keypad" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="url">Url:</label>
+			<input type="url" name="url" id="url" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="tel">Tel:</label>
+			<input type="tel" name="tel" id="tel" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="time">Time:</label>
+			<input type="time" name="time" id="time" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="date">Date:</label>
+			<input type="date" name="date" id="date" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="month">Month:</label>
+			<input type="month" name="month" id="month" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="week">Week:</label>
+			<input type="week" name="week" id="week" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="datetime">Datetime:</label>
+			<input type="datetime" name="datetime" id="datetime" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="datetime-l">Datetime local:</label>
+			<input type="datetime-local" name="datetime-l" id="datetime-l" value="" />
+		</div>
+			
+		<div data-role="fieldcontain">
+			<label for="color">Color:</label>
+			<input type="color" name="color" id="color" value="" />
+		</div>
+	
+	
+	
+	
+	
+	</div>
+	
+	
+	<!-- footer -->
+	<div data-role="footer">
+		
+		<h4>footer</h4>
+	</div>
+	
+
+</div>
+
+</body>
+</html>

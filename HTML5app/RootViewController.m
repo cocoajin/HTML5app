@@ -42,6 +42,7 @@
     self.clearsSelectionOnViewWillAppear = NO;
 
     listArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [listArray addObject:@"form input widget"];
     [listArray addObject:@"table widget"];
     [listArray addObject:@"switch slider widget"];
     [listArray addObject:@"selectmenu widget"];
@@ -65,6 +66,7 @@
     
     
     webArray = [[NSMutableArray alloc]initWithCapacity:10];
+    [webArray addObject:@"form"];
     [webArray addObject:@"table"];
     [webArray addObject:@"switch"];
     [webArray addObject:@"selectMenu"];
