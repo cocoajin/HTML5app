@@ -10,7 +10,7 @@
 #import "SVWebViewController.h"
 #import "WebPageViewController.h"
 
-#define kBaseURL @"http://h5.cocoajin.org"
+#define kBaseURL @"http://teso.cocoajin.org/H5/"
 #define kHtml @".html"
 
 @interface RootViewController ()
